@@ -4,4 +4,4 @@ import { galleryItems } from './gallery-items';
 
 console.log(galleryItems);
 
-console.log('hello qwerynpm');
+console.log('hello weqeqwerynpm');
