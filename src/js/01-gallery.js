@@ -22,4 +22,6 @@ function showImage ( {preview, original, description} ) {
 
 galleryEl.insertAdjacentHTML('afterbegin', createPicture);
 
-var lightbox = new SimpleLightbox('.gallery a', { /* options */ }); 
+new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 }); 
+
+console.log('qwery')
